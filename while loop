@@ -1,0 +1,10 @@
+from math import *
+
+x = [1,2,3,4,5,6,7,8,9,10]
+i = 0
+res = 0
+while i < 10: #since we looking for numbers less than 11, and we are counting each number from 0 - 10
+  #print (res)
+    res = res + x[i] #since we want to count x and then sum it, as i increases 
+    i += 1 #to tell it to increase i by 1 everytime
+    print (res)

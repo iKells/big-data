@@ -1,0 +1,16 @@
+#write an if & else statemet, where if my age is greater than 21 to print 'can drink' or less than 21 print 'cannot drink'
+
+age = input ("what is your age?: ")
+age = int(age)
+
+a = "can drink"
+b = "cannot drink"
+
+#what is your age?
+# age = 33 #this is where we input age to get result
+
+if age > 21:
+  print (a)
+
+else:
+  print (b)

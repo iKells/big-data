@@ -1,0 +1,7 @@
+# SQL pulling data from 3 tables; salary >= 100000
+
+SELECT emp.id, emp.name, emp_add.city, emp_contact.email
+FROM ((emp
+INNER JOIN emp_add ON emp.id = emp_add.id)
+INNER JOIN emp_contact ON emp.id = emp_contact.id)
+WHERE emp.salary >= 100000;
